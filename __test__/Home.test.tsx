@@ -7,6 +7,6 @@ describe("Home", () => {
     render(<Home />);
     const headingEl = screen.getByRole("heading");
 
-    expect(headingEl).toHaveTextContent(/hi/);
+    expect(headingEl).toHaveTextContent(/asdf/);
   });
 });
